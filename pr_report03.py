@@ -26,4 +26,5 @@ nx.draw_networkx_labels(G, pos, fontsize=14, font_weight="bold", alpha=0.1)
 nx.draw_networkx_edges(G, pos, alpha=0.4, edge_color='C', width=2.0)
 
 plt.axis('off')
+plt.savefig("./images/pr_report03.png")
 plt.show()
